@@ -9,7 +9,7 @@ with open('/home/richard/Development/Advent-of-Code/2022/01/input.txt', 'r') as 
         else:
             calories += int(line.strip())
 
-calories_list.sort
+calories_list.sort()
 
 print(calories_list[-1:])
 print(sum(calories_list[-3:]))
